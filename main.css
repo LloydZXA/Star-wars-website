@@ -7,18 +7,30 @@
 .separatistbackground { 
     background-color:#333; 
 }
+.home.background {
+    background-color: #333;
+}
 
 #header {
     background-color: #1f2421;
     text-align: center;
     padding: 20px;
-    color: #d10d0d;
+    color:#FFE81F;
+}
+
+#headerbig {
+    background-color: #1f2421;
+    text-align: center;
+    padding: 20px;
+    color: #FFE81F;
+    background-image: url(Starfield.webp);
 }
 
 /* The navbar container */
 .topnav {
     overflow: hidden;
     background-color:#454441;
+    background-image: url(Starfield.webp);
 }
 
   /* Navbar links */
@@ -34,10 +46,11 @@
   /* Links - change color on hover */
 .topnav a:hover {
     background-color:#706c60;
-    color:#d10d0d;
+    color:#FFE81F;
+    background-image: url(/Starfield2.webp);
 }
 
-.Description {
+.description {
     color:#c9c7bf;
 }
 
