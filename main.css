@@ -29,7 +29,6 @@
 /* The navbar container */
 .topnav {
     overflow: hidden;
-    background-color:#454441;
     background-image: url(Starfield.webp);
 }
 
@@ -45,9 +44,9 @@
 
   /* Links - change color on hover */
 .topnav a:hover {
-    background-color:#706c60;
     color:#FFE81F;
-    background-image: url(/Starfield2.webp);
+    background-color: #c9c7bf;
+    background-image: url(Starfield2.webp);
 }
 
 .description {
@@ -97,4 +96,34 @@ body {
     margin-right: auto;
     width: 50%;
     border: 5px solid #1f2421;
+}
+
+footer {
+    text-align: right;
+    padding: 3px;
+    background-color:#333;
+    color: #f2f2f2;
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+a:link {
+    color:#FFE81F;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:#FFE81F;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color:#f0190a;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:#f0190a;
+    background-color: transparent;
+    text-decoration: none;
 }
